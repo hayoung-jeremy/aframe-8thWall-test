@@ -1,0 +1,22 @@
+{
+  "name": "aframe-8thwall-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node ./server.js",
+    "serve": "cross-env NODE_ENV=production node ./server.js",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "@small-tech/cross-platform-hostname": "^1.0.0",
+    "@small-tech/https": "^4.0.0",
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "aframe": "^1.4.0",
+    "cross-env": "^7.0.3",
+    "express": "^4.18.2"
+  }
+}
